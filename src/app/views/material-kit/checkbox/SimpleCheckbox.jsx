@@ -14,12 +14,12 @@ export default function SimpleCheckbox() {
 
   return (
     <Box>
-      <Checkbox
+      {/* <Checkbox
         value="checkedA"
         checked={state.checkedA}
         onChange={handleChange('checkedA')}
         inputProps={{ 'aria-label': 'primary checkbox' }}
-      />
+      /> */}
 
       <Checkbox
         checked={state.checkedB}
